@@ -15,7 +15,7 @@ const User = require("./models/User");
 const facebookStrategy = require("passport-facebook").Strategy;
 
 app.set("view engine", "ejs");
-app.use(session({ secret: "ilovescotchscotchyscotchscotch" }));
+app.use(session({ secret: "world_of_tanks" }));
 app.use(passport.initialize());
 app.use(passport.session());
 app.use(cookieParser());
