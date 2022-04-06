@@ -126,5 +126,5 @@ app.get("/logout", function (req, res) {
 });
 
 app.listen(process.env.PORT, () => {
-  console.log("App is listening on Port 5000");
+  console.log(`App is listening on Port ${process.env.PORT}`);
 });
